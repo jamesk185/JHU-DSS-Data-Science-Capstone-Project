@@ -118,4 +118,14 @@ for(x in 1001:2000){
 }
 sum(testresultHITS)/1000
 
-
+## code for speed test for results to be included in pitch presentation
+times <- NULL
+for(x in 2001:2010){
+  start <- Sys.time()
+  next_word_predictor(testing_data_nolastword[x])
+  end <- Sys.time()
+  total <- end-start
+  times <- c(times, total)
+}
+times 
+mean(times)
