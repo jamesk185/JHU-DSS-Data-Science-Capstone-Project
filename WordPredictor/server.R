@@ -1,12 +1,17 @@
 library(shiny)
 
 shinyServer(function(session, input, output) {
+    
+    url <- a("github repository", href="https://github.com/jamesk185/JHU-DSS-Data-Science-Capstone-Project", target="_blank")
+    output$url1 <- renderUI({
+        tagList("", url)
+    })
 
-    bigram_data <- readRDS("C:/Users/james/Documents/R/JHU DSS Data Science Capstone/bigram_data24.rds")
-    trigram_data <- readRDS("C:/Users/james/Documents/R/JHU DSS Data Science Capstone/trigram_data24.rds")
-    quadgram_data <- readRDS("C:/Users/james/Documents/R/JHU DSS Data Science Capstone/quadgram_data12.rds")
-    quintgram_data <- readRDS("C:/Users/james/Documents/R/JHU DSS Data Science Capstone/quintgram_data6.rds")
-    sextgram_data <- readRDS("C:/Users/james/Documents/R/JHU DSS Data Science Capstone/sextgram_data3.rds")
+    bigram_data <- readRDS("./data/bigram_data24.rds")
+    trigram_data <- readRDS("./data/trigram_data24.rds")
+    quadgram_data <- readRDS("./data/quadgram_data12.rds")
+    quintgram_data <- readRDS("./data/quintgram_data6.rds")
+    sextgram_data <- readRDS("./data/sextgram_data3.rds")
     
     next_word_predictor <- function(string){
         cleanstring <- tolower(string)
@@ -87,7 +92,7 @@ shinyServer(function(session, input, output) {
         all <- all[1:4]
         all <- all[!is.na(all)]
         if(length(all)<4){
-            all <- c(all, "lol")
+            all <- c(all, rep("lol", 4-length(all)))
             print(all)
         } else{
             print(all)

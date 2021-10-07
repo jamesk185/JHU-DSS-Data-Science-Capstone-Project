@@ -1,0 +1,13 @@
+name: WordPredictor
+title: WordPredictor
+username:
+account: jamesk185
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4817106
+bundleId: 5112724
+url: https://jamesk185.shinyapps.io/WordPredictor/
+when: 1633575578.93654
+lastSyncTime: 1633575578.93654
+asMultiple: FALSE
+asStatic: FALSE
