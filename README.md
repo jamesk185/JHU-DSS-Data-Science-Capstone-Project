@@ -2,11 +2,11 @@
 
 Completed as part of the Data Science Capstone course in the Johns Hopkins University Data Science Specialization.
 
-The aim of this project was to create and application that allows use of a predictive text model. This was achieved through analysis of text data and natural language processing.
+The aim of this project was to create an application that allows use of a predictive text model. This was achieved through analysis of text data and natural language processing.
 
 - Link to shiny app: https://jamesk185.shinyapps.io/WordPredictor/
 
-- Link to pitch presentation: https://rpubs.com/jamesk185/819051
+- Link to pitch presentation: https://rpubs.com/jamesk185/819061
 
 - Link to milestone report: https://rpubs.com/jamesk185/810778
 

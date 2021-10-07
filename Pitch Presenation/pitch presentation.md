@@ -6,12 +6,12 @@ autosize: true
 
 Completed as part of the Data Science Capstone course in the Johns Hopkins University Data Science Specialization.
 
-The aim of this project was to create and application that allows use of a predictive text model. This was achieved through analysis of text data and natural language processing.
+The aim of this project was to create an application that allows use of a predictive text model. This was achieved through analysis of text data and natural language processing.
 
 The Data
 ========================================================
 <font size="5">
-The data was provided by in the course outline at https://d396qusza40orc.cloudfront.net/dsscapstone/dataset/Coursera-SwiftKey.zip. It is a large dataset including samples of text from twitter, blogs and the news. I accessed, sampled and cleaned the data, with the following process.
+The data was provided by the course outline at https://d396qusza40orc.cloudfront.net/dsscapstone/dataset/Coursera-SwiftKey.zip. It is a large dataset including samples of text from twitter, blogs and the news. I accessed, sampled and cleaned the data, with the following process.
 
 - Sampling the data to provide datasets manageable on ordinary CPUs.
 - Setting aside a testing set to allow for later model testing and subsequent improvements.
