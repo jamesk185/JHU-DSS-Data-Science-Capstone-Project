@@ -10,4 +10,4 @@ The aim of this project was to create and application that allows use of a predi
 
 - Link to milestone report: https://rpubs.com/jamesk185/810778
 
-Note that to run the data processing stages of this, the source files were downloaded from https://d396qusza40orc.cloudfront.net/dsscapstone/dataset/Coursera-SwiftKey.zip , unzipped and then stored in a folder called 'Coursera-SwiftKey' in the workinf directory.
+Note that to run the data processing stages of this, the source files were downloaded from https://d396qusza40orc.cloudfront.net/dsscapstone/dataset/Coursera-SwiftKey.zip , unzipped and then stored in a folder called 'Coursera-SwiftKey' in the working directory.
